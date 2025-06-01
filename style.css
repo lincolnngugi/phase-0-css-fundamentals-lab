@@ -3,3 +3,70 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  color: red;
+  text-align: center;
+}
+
+.image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Center the nav bar */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Helps on smaller screens */
+  gap: 10px; /* Optional: adds space between links */
+  padding: 10px 0;
+  background-color: #f4f4f4; /* Optional: navbar background */
+}
+
+/* Style the nav links */
+nav a {
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Optional: Add hover effect */
+nav a:hover {
+  background-color: darkgrey
+}
+
+.image-container figcaption {
+  font-size: 0.9rem; /* smaller font size */
+  text-align: center; /* center the text */
+  color: #555; /* optional: softens the color for a modern feel */
+  margin-top: 8px; /* optional: adds space between image and caption */
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;  /* centers the block and adds vertical space */
+  text-align: center;
+  line-height: 1.6;   /* optional: improves readability */
+}
+
+#details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f4f4f4; /* Optional: container background */
+}
+
+#details div {
+  background-color: #e0e0e0; /* Matching color for all boxes */
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box; /* ensures padding doesn't overflow width */
+  border: 1px solid #ccc; /* optional: subtle divider */
+}
